@@ -1,0 +1,38 @@
+html {
+  background-color: #334257;
+}
+
+h1 {
+  font-family: 'Advent Pro', sans-serif;
+}
+
+form {
+  background-color: #334257;
+}
+
+body {
+  margin: 0;
+}
+
+.header {
+  background-color: #334257;
+  padding: 150px;
+  color: #EEEEEE;
+}
+
+.foot_note {
+  margin: auto;
+}
+
+#footer {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  color: white;
+  padding: 50px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+  background-color: #548CA8;
+  text-align: center;
+}
