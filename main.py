@@ -68,7 +68,7 @@ def get_form():
 
 
 @app.route("/", methods=["GET", "POST"])
-def get_string():
+def scrape():
     current_year = datetime.today().year
 
     if request.method == "POST":
