@@ -92,6 +92,10 @@ def get_string():
     return render_template("index.html", year=current_year)
 
 
+@app.route("/test")
+def new_test():
+    return "testing"
+
 
 if __name__ == "__main__":
     app.run(debug=True)
